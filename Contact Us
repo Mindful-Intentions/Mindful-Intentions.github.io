@@ -1,0 +1,36 @@
+<html lang-"en">
+    <head>
+        <div class="contact-us-bg">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+  <body>
+<div class="contact-container">
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact-left" enctype="multipart/form-data">
+        <div class="contact-left-title">
+            <h2>Contact Us</h2>
+            <hr>
+        </div>
+        <input type="hidden" name="access_key" value="c5f1bd59-54e8-4464-8c11-2c7528db5541">
+        <input type="text" name="name" placeholder="Your First and Last Name" class="contact-inputs" required>
+        <input type="email" name="email" placeholder="Your email" class="contact-inputs" required>
+        <input type="phone number" name="Phone Number" placeholder="Your Phone Number" class="contact-inputs" required>
+            <textarea name="message" placeholder="Reason for Seeking Therapy" class="contact-inputs" required></textarea>
+        <input type="insurance" name="insurance" placeholder="Would you like to be seen through your insurance?" class="contact-inputs" required>
+        <div class="contact-left-subtitle">
+        <h3>Insurance Verification Information</h3></div>
+        <input type="insurance carrier" name="insurance carrier" placeholder="If Yes, Insurance Carrier Name" class="contact-inputs"> 
+        <input type="insurance ID" name="insurance ID" placeholder="Insurance Member ID" class="contact-inputs">
+        <input type="date of birth" name="date of birth" placeholder="Date of Birth " class="contact-inputs">
+           
+    
+        <button type="submit"> Submit </button>
+
+
+</div>
+
+  </body>
+
+</html>
